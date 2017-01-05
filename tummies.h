@@ -52,7 +52,11 @@
 	// Display
 	const int MAP_DISP_SCALE=8;
 
-
+	// Population
 	const int MAX_TUMMIES=65536;
 	const int MIN_TUMMIES=16;
+	const int TARGET_MAX_TUMMIES=512;
+	const int TARGET_MIN_TUMMIES=320;
+	const float TEMP_DECAY_FACTOR=0.98;
+	const float TEMP_INCREASE_FACTOR=0.02;
 #endif

@@ -58,7 +58,6 @@ float*** genMap(int64_t seed){
 		map[x][MAX_Y-1][0]=-1;
 	}
 
-	write_png_image("map.png", (unsigned char *) img, MAX_X, MAX_Y, 1);
 	open_simplex_noise_free(ctx);
 	return map;
 }
